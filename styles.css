@@ -231,7 +231,7 @@ ul,ol{list-style:none;margin:0;padding:0}
 .pin i{font-style:normal;margin-inline-end:4px}
 .pin:hover,.pin:active{color:#fff;text-shadow:0 0 4px #fff,0 0 14px var(--cy),0 0 26px var(--cy)}
 .pins{display:flex;flex:0 0 auto;gap:12px}
-.zrow dt{display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+.zrow dt{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;column-gap:12px}
 .zrow dt > span:first-child{min-width:0}
 .zone.boring .pin{opacity:.7}
 .stop{display:flex;flex-wrap:wrap;align-items:baseline;column-gap:12px}
